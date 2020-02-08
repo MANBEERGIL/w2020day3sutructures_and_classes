@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BD6D25E823EE23660024ABAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D25E723EE23660024ABAA /* main.swift */; };
+		BD6D25EF23EE24910024ABAA /* SStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D25EE23EE24910024ABAA /* SStudent.swift */; };
+		BD6D25F123EE26250024ABAA /* Cstudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D25F023EE26250024ABAA /* Cstudent.swift */; };
+		BD6D25F323EE2C160024ABAA /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D25F223EE2C160024ABAA /* Students.swift */; };
+		BD6D25F523EE41830024ABAA /* employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D25F423EE41830024ABAA /* employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		BD6D25E423EE23660024ABAA /* w2020day3sutructures_and_classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = w2020day3sutructures_and_classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6D25E723EE23660024ABAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD6D25EE23EE24910024ABAA /* SStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SStudent.swift; sourceTree = "<group>"; };
+		BD6D25F023EE26250024ABAA /* Cstudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cstudent.swift; sourceTree = "<group>"; };
+		BD6D25F223EE2C160024ABAA /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		BD6D25F423EE41830024ABAA /* employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		BD6D25E623EE23660024ABAA /* w2020day3sutructures_and_classes */ = {
 			isa = PBXGroup;
 			children = (
+				BD6D25F423EE41830024ABAA /* employee.swift */,
 				BD6D25E723EE23660024ABAA /* main.swift */,
+				BD6D25EE23EE24910024ABAA /* SStudent.swift */,
+				BD6D25F023EE26250024ABAA /* Cstudent.swift */,
+				BD6D25F223EE2C160024ABAA /* Students.swift */,
 			);
 			path = w2020day3sutructures_and_classes;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D25F123EE26250024ABAA /* Cstudent.swift in Sources */,
 				BD6D25E823EE23660024ABAA /* main.swift in Sources */,
+				BD6D25EF23EE24910024ABAA /* SStudent.swift in Sources */,
+				BD6D25F523EE41830024ABAA /* employee.swift in Sources */,
+				BD6D25F323EE2C160024ABAA /* Students.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
